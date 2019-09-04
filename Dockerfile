@@ -1,6 +1,6 @@
 FROM alpine:latest AS build_stage
 
-MAINTAINER brainsam@yandex.ru
+MAINTAINER dewaldabrie@gmail.com
 
 WORKDIR /
 RUN apk --update add git python py-pip build-base automake libtool m4 autoconf libevent-dev openssl-dev c-ares-dev

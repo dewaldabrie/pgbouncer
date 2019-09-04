@@ -1,6 +1,8 @@
 ## Synopsis
 
 **pgbouncer** is a popular, small connection pooler for Postgresql. This is yet another docker image with pgbouncer, based on alpine.
+This is repo is forked from ![brainsam/pgbouncer](https://github.com/brainsam/pgbouncer). The only change is to not print the database
+password on stdout from the entrypoint script.
 
 ## Code Example
 You can configure it by Environment variables:
